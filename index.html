@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       
+        <header>
+            
+        <div class="navDiv">
+            <img src="assets/logo.png" alt="Logo">
+            <video autoplay loop muted plays-inline>
+                <source src="assets/bugatti_intro_30_v14.mp4" type="video/mp4">
+            </video>
+            <ul class="navbar">
+                <li><a class="nav__links active" href="#secHome">Home</a></li>
+                <li><a class="nav__links" href="#secAbout">About</a></li>
+                <li><a class="nav__links" href="#secGallery">Gallery</a></li>
+                <li><a class="nav__links" href="#secContact">Contact</a></li> 
+                
+            </ul>
+            
+            <a href="#"><i class="bi user bi-person-circle"></i></a>
+            <a href="#"><i class="bi globe bi-globe-americas"></i></a>
+            
+        </div>
+        
+        </header>
+
+       <section class="one child" id="secHome">
+
+       
+          <h1 style="text-align: center;">IF COMPARABLE <br>IT IS NO LONGER A BUGATTI</h1>
+          <br>
+        
+          <p style="text-align: center;" id="ettori">ETTORI BUGATTI</p>
+          <br>
+          
+        
+          <p id="immerse" style="text-align: center;">Immerse yourself in a world <br> of unparalleled artistry.</p>
+           
+          <div class="arrow">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+         
+        <div class="lowBar">
+            <a href="#"><i class="bi bi-fuel-pump"></i>21.47 - 25.19 1/100 km</a>
+            <div class="co2">CO₂</div>
+            <p> 486.72 - 571.63 g/km</p>
+        </div>
+        <div class="lowBar2">
+            <p id="English">ENGLISH</p>
+            <img src="logo.png" alt="LOGO">
+            <p id="Audio">AUDIO OFF</p>
+        </div>
+       </section>
+
+
+       <section class="two child" id="secAbout">
+        <div class="about">
+            <div class="aboutImage">
+                <img src="assets/about.jpg" alt="About Image">
+            </div>
+            <div class="aboutText">
+               <h3>About Us</h3>
+
+               <div class="why">
+                <h1>WHY WE</h1>
+               </div>
+               <div class="what">
+                <h1>DO WHAT</h1>
+               </div>
+               <div class="we">
+                <h1>WE DO</h1>
+               </div>
+               <div class="baseText">
+                <p>Every single detail of a Bugatti  is <br>
+                    measured against our continuing goal: to<br>
+                    enhance vehicle performance.</p>
+               </div>
+
+
+
+
+            </div>
+            
+        </div>
+       </section>
+
+       
+       <section class="three child" id="secGallery">
+        <div class="carousel">
+            <h3>Gallery</h3>
+            <div class="carContainer">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        
+                        <div class="description">
+                            <h4>W16 MISTRAL</h4>
+                            <p>Inspired by a Legendary Wind
+                            </p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2" >
+                <label for="c2" class="card">
+                    <div class="row">
+                        
+                        <div class="description">
+                            <h4>X-THEME</h4>
+                            <p>The X-shaped LED taillights are not only for show
+                            </p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3" >
+                <label for="c3" class="card">
+                    <div class="row">
+                        
+                        <div class="description">
+                            <h4>SKY'S THE LIMIT</h4>
+                            <p>The Most Intense Roofless Experience</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4" >
+                <label for="c4" class="card">
+                    <div class="row">
+                        
+                        <div class="description">
+                            <h4>GRAND RAID</h4>
+                            <p>Designed with Adventure in mind
+                            </p>
+                        </div>
+                    </div>
+                </label>
+                <!-- <input type="radio" name="slide" id="c5" >
+                <label for="c5" class="card">
+                    <div class="row">
+                        
+                        <div class="description">
+                            <h4>GRAND RAID</h4>
+                            <p>Designed with Adventure in mind
+                            </p>
+                        </div>
+                    </div>
+                </label> -->
+            </div>
+        </div>
+
+        
+        
+
+        
+           
+           
+        
+       </section>
+
+      
+
+       <section class="four child" id="secContact">
+        <div class="contactUs">
+            <div class="formCount">
+                <form>
+                    <h1>Contact Us</h1>
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="number" id="mobile" placeholder="Mobile" required>
+                    <h4>Your Message:</h4>
+                    <textarea required></textarea>
+                    <input type="submit" value="Send" id="button">
+                </form>
+            </div>
+
+
+
+        </div>
+       </section>
+
+       <footer>
+
+        <!-- <h1>Footer</h1> -->
+        <div class="footerContainer">
+            <ul class="social">
+                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                <li><a href="#"><i class="bi bi-facebook"></i></li>
+                <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+            <div class="footer2">
+                <ul class="navs">
+                    <li><a href="#secHome">Home</a></li>
+                    <li><a href="#secAbout">About</a></li>
+                    <li><a href="#secGallery">Gallery</a></li>
+                    <li><a href="#secContact">Contact</a></li>
+                    
+                   
+                </ul>
+
+        </div>
+        <div class="footer3">
+            <p>Copyright &copy; 2024 Bugatti</p>
+
+        </div>
+
+       </footer>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+   
+</body> 
+</html>
